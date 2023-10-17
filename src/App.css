@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Plus+Jakarta+Sans:wght@700&family=Poppins&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  width: 250px;
+  background-color: #121231;
+  border-radius: 0.7rem;
+  padding: 20px;
+  row-gap: 10px;
+  display: grid;
+}
+.card-icon {
+  background: #f6c927;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.gold-text {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f6c927;
+  line-height: 1.7;
+}
+
+.project-props {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+}
+
+.grid {
+  display: grid;
+}
+.cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.line-1 {
+  line-height: 1.5;
+}
