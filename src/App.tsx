@@ -33,6 +33,7 @@ const content: Card[] = [
 function App() {
   return (
     <>
+      <div>Hello World!</div>
       <DashboardList contentList={content} />
     </>
   );
